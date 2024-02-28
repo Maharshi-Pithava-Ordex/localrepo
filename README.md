@@ -25,6 +25,11 @@ git diff --staged
 git log --stat
 git log -p
 git log --pretty
+git log --pretty=oneline
+git log --pretty=short
+git log --pretty=long
+git log --since=2.days
+git log --pretty=format:"%h - %an"
 
 <!-- rename file -->
 
@@ -55,3 +60,7 @@ git checkout feature1
 <!-- merge branch -->
 
 git merge
+
+<!-- unstaged file -->
+
+git restore --staged filename
