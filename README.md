@@ -41,6 +41,8 @@ git reset HEAD~1
 
 <!-- branch commands -->
 
+git branch
+
 <!-- change master to main -->
 
 git branch -M main
