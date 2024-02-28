@@ -2,4 +2,4 @@
 
 it is a local repostory
 <br>
-new changes
+new changes in staging area
