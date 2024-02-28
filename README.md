@@ -61,6 +61,16 @@ git checkout feature1
 
 git merge
 
-<!-- unstaged file -->
+<!-- unstaged last stage -->
 
 git restore --staged filename
+
+<!-- return last commit changes of file -->
+
+git checkout -- filename
+
+<!-- remote github repository -->
+
+git remote add origin link
+git remote
+git remote -v
