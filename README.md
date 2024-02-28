@@ -55,6 +55,10 @@ git checkout -b feature1
 
 git branch -d feature1
 
+<!-- show branches with last commit -->
+
+git branch -v
+
 <!-- change branch -->
 
 git checkout feature1
