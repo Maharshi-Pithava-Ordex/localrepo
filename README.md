@@ -84,3 +84,7 @@ git remote -v
 <!-- add alias for minified commands  here st replace status-->
 
 git config --global alias.st status
+
+<!-- remove git tracking -->
+
+git rm -r --cached
