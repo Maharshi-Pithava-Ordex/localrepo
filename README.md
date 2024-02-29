@@ -88,3 +88,7 @@ git config --global alias.st status
 <!-- remove git tracking -->
 
 git rm -r --cached
+
+<!-- remove .git folder -->
+
+Remove-Item ".git" -Force -Recurse
